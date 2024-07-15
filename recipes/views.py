@@ -7,8 +7,3 @@ def home(request):
         'name': 'Matheus Stelzner',
     })
 
-def contato(request):
-    return render(request, 'recipes/contato.html')
-
-def my_view(request):
-    return HttpResponse("Hello world")
